@@ -1,0 +1,58 @@
+div{
+    padding: 10px;
+    font-family: sans-serif;
+}
+div.status{
+    max-width:350px; 
+    border: 3px solid #f2f2f2;
+    padding: 0px;
+}
+
+.flex{
+    display:flex;
+}
+
+.flex.vm-status{
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+
+.flex.count > div{
+    width: 100%;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+.flex.count {
+    border-top: 2px solid #f2f2f2;
+    padding: 0px;
+}
+
+.flex.count > div:first-child{
+    border-right: 2px solid #f2f2f2;
+}
+
+.error{
+    color:red;
+}
+
+.ok{
+  color:rgb(0, 136, 138);
+}
+
+.text{
+    color: rgb(142, 145, 152);
+    padding: 2px 0px;
+}
+
+h2{
+    font-size: 2.2em;
+    margin: 0;
+    font-weight: normal;
+}
+
+.dot{
+    padding:0px;
+    font-size : 25px;
+}

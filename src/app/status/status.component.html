@@ -1,0 +1,25 @@
+<div class="status">
+  <div>
+    <div class="flex vm-status">
+      <div class="{{statusCode | lowercase}}">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        {{statusCode}}</div>
+      <div class="dot"><span>...</span></div>
+    </div>
+    <div>
+      <h2 class="ok">{{name}}</h2>
+      <div class="text">{{description}}</div>
+      <div class="text path">{{path}}</div>
+    </div>
+</div>
+<div class="flex count">
+  <div>
+    <div class="ok">VMs</div>
+    <div>{{vmCount}}</div>
+  </div>
+  <div>
+      <div class="error">ERRORS</div>
+      <div>{{errorCount}}</div>
+  </div>
+</div>
+</div>
